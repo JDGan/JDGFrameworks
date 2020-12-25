@@ -1,4 +1,5 @@
 # JDGFrameworks
+程序员JDG的框架仓库（Swift）
 
 [![CI Status](https://img.shields.io/travis/jessiegan1987@163.com/JDGFrameworks.svg?style=flat)](https://travis-ci.org/jessiegan1987@163.com/JDGFrameworks)
 [![Version](https://img.shields.io/cocoapods/v/JDGFrameworks.svg?style=flat)](https://cocoapods.org/pods/JDGFrameworks)
@@ -13,11 +14,15 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-JDGFrameworks is available through [CocoaPods](https://cocoapods.org). To install
+JDGFrameworks is not available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
+
 pod 'JDGFrameworks'
+
+pod 'JDGFrameworks/Base'
+
 ```
 
 ## Author
