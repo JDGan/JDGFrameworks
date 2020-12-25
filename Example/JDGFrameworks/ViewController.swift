@@ -7,12 +7,14 @@
 //
 
 import UIKit
+import JDGFrameworks
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        JDGLog.default.displaySpace.append(.specific(name: "UI"))
+        JDGLog.default.displaySpace.append(.specific(name: "Logic"))
     }
 
     override func didReceiveMemoryWarning() {
@@ -20,5 +22,11 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func showLogPressed(_ sender: Any) {
+        if arc4random()%2 == 1 {
+            JLError("测试代码1", space: .specific(name: "Logic"))
+        } else {
+            JLMessage("测试代码2", space: .specific(name: "UI"))
+        }
+    }
 }
-

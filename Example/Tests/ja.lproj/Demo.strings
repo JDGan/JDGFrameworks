@@ -1,0 +1,23 @@
+/* 
+  Demo.strings
+  JDGFrameworks
+
+  Created by JDGan on 2020/12/24.
+  Copyright © 2020 CocoaPods. All rights reserved.
+*/
+"Internet_Connection_Error"="网络连接失败，请联网后重试";
+"Requesting"="请求中...";
+"Invalid_URL"="无效的请求";
+"RequestGenerate_Fail_Data_Error"="数据生成表单错误";
+"RequestResponseStatus_success"="请求成功";
+"RequestResponseStatus_fail"="请求失败";
+"RequestResponseStatus_parameterMissed"="请求参数缺失";
+"RequestResponseStatus_tokenMissed"="请求token缺失";
+"RequestResponseStatus_permissionDenied"="登录已过期，请重新登录";
+"RequestResponseStatus_illegalURL"="访问接口地址不存在";
+"RequestResponseStatus_unknownMethod"="访问方法不允许";
+"RequestResponseStatus_methodError"="接口异常";
+"RequestResponseStatus_noResponse"="接口无响应";
+"RequestResponseStatus_ParseError"="数据解析错误";
+"RequestResponseStatus_Unknown_Error"="未知错误";
+"Request_Generate_Fail"="创建请求失败";

@@ -1,0 +1,18 @@
+PODS:
+  - JDGFrameworks (0.0.1):
+    - JDGFrameworks/Base (= 0.0.1)
+  - JDGFrameworks/Base (0.0.1)
+
+DEPENDENCIES:
+  - JDGFrameworks (from `../`)
+
+EXTERNAL SOURCES:
+  JDGFrameworks:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JDGFrameworks: 04cc5a0d383ceaebd6bb6e379c39ed8502495258
+
+PODFILE CHECKSUM: 5b76b1cb5d10b1b87ccfa3b6f4d81dd4e82c2c3a
+
+COCOAPODS: 1.9.3

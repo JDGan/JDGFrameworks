@@ -1,0 +1,29 @@
+{
+  "name": "JDGFrameworks",
+  "version": "0.0.1",
+  "summary": "程序员JDG的框架仓库（Swift）",
+  "description": "欢迎来到程序员JDG的框架仓库，目前仅包含项目的基本框架。",
+  "homepage": "https://github.com/jessiegan1987@163.com/JDGFrameworks",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jessiegan1987@163.com": "jessiegan1987@163.com"
+  },
+  "source": {
+    "git": "https://github.com/jessiegan1987@163.com/JDGFrameworks.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "requires_arc": true,
+  "subspecs": [
+    {
+      "name": "Base",
+      "source_files": "JDGFrameworks/Classes/Base/**/*.swift",
+      "public_header_files": "JDGFrameworks/Classes/Base/**/*.h"
+    }
+  ]
+}
